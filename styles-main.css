@@ -1,0 +1,48 @@
+main {
+    gap: 5rem;
+    width: 1000px;
+    padding: 3rem;
+    display: flex;
+    background-color: white;
+}
+
+#imgSect {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#mainImg {
+    width: 25rem;
+    border-radius: 16px;
+    content: url("/images/image-product-1.jpg");
+}
+
+#thumbnail {
+    gap: 1rem;
+    display: flex;
+}
+
+#thumbnail img {
+    height: auto;
+    width: 5.5rem;
+    border-radius: 8px;
+}
+
+.active {
+    opacity: .25;
+    position: relative;
+    box-shadow: 0 0 0 2px hsl(26, 100%, 55%);
+}
+
+.active::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-color: #007bff;
+    border: 2px solid;
+    z-index: 1;
+}
