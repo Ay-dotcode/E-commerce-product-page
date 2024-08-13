@@ -71,13 +71,22 @@ main {
 
 #discount {
     color: white;
-    padding: .4rem .6rem;
+    font-weight: 700;
+    font-size: .8rem;
     border-radius: 6px;
+    padding: .3rem .6rem;
     background-color: hsl(220, 13%, 13%);
 }
 
 .row {
-    display: flex;
-    align-items: center;
     gap: 1rem;
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+#oldPrice {
+    font-weight: 700;
+    color: hsl(219, 9%, 45%);
+    text-decoration: line-through;
 }
