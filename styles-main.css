@@ -92,12 +92,21 @@ main {
 
 #cartNo {}
 
+#cartBtnIco {
+    width: .8rem;
+    font-weight: 700;
+}
+
 #addCArt {
+    gap: 1rem;
     border: none;
+    display: flex;
     font-weight: 700;
     margin-top: 1rem;
     font-size: .75rem;
     border-radius: 8px;
+    align-items: center;
     padding: .75rem 3rem;
+    color: hsl(220, 13%, 13%);
     background-color: hsl(26, 100%, 55%);
 }
