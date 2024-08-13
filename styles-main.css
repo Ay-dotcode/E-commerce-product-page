@@ -90,7 +90,22 @@ main {
     text-decoration: line-through;
 }
 
-#cartNo {}
+#prodNo {
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    padding: .75rem 1rem;
+    background-color: hsl(223, 64%, 98%);
+}
+
+#cartNo {
+    width: 2rem;
+    border: none;
+    font-weight: 700;
+    text-align: center;
+    color: hsl(220, 13%, 13%);
+    background-color: transparent;
+}
 
 #cartBtnIco {
     width: .8rem;
