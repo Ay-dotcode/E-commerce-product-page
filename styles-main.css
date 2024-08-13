@@ -66,4 +66,12 @@ main {
 #price {
     font-size: 2rem;
     font-weight: 700;
+    color: hsl(220, 13%, 13%);
+}
+
+#discount {
+    color: white;
+    padding: .4rem .6rem;
+    border-radius: 6px;
+    background-color: hsl(220, 13%, 13%);
 }
