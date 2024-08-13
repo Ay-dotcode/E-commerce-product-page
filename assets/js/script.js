@@ -1,3 +1,5 @@
+
+
 const main = document.querySelector('main');
 const cartNo = main.querySelector('#cartNo');
 const plus = main.querySelector('#plus');
@@ -8,12 +10,16 @@ const thumbnail = main.querySelector('#thumbnail');
 
 // Plus and minus functionality
 plus.addEventListener('click', () => cartNo.value++);
-minus.addEventListener('click', () => cartNo.value -= inalis(cartNo.value > 1) ? 1 : 0);
+minus.addEventListener('click', () => cartNo.value -= (cartNo.value > 1) ? 1 : 0);
 
-thumbnail.addEventListener('click', ProccessImg);
-function ProccessImg(e) {
+thumbnail.addEventListener('click', changeImg);
+function changeImg(e) {
+    thumbnail.childNodes.forEach(element => {
+        if (element.tagName === 'IMG')
+            element.classList.remove('active');
+    });
     if (e.target.tagName === 'IMG') {
-        mainImg.src = `/assets/images/image-product-${e.target.alt[8]}.jpg`;
         e.target.classList.add('active');
+        mainImg.src = `/assets/images/image-product-${e.target.alt[8]}.jpg`;
     }
 }
