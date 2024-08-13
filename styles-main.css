@@ -91,12 +91,15 @@ main {
 }
 
 #prodNo {
-    gap: 1rem;
     display: flex;
     margin-top: 1rem;
     align-items: center;
-    padding: .75rem 1rem;
     background-color: hsl(223, 64%, 98%);
+}
+
+#plus,
+#minus {
+    padding: 0.75rem 1rem;
 }
 
 #cartNo {
