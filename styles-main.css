@@ -34,15 +34,3 @@ main {
     position: relative;
     box-shadow: 0 0 0 2px hsl(26, 100%, 55%);
 }
-
-.active::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 200px;
-    background-color: #007bff;
-    border: 2px solid;
-    z-index: 1;
-}
