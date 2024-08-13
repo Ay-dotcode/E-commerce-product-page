@@ -21,8 +21,8 @@ header {
 
 nav {
     gap: 3rem;
-    padding: 1rem;
     display: flex;
+    padding: 0 1rem;
     align-items: center;
 }
 
@@ -30,6 +30,7 @@ nav ul {
     gap: 1.5rem;
     display: flex;
     list-style: none;
+    padding-bottom: 1rem;
 }
 
 nav ul li a {
