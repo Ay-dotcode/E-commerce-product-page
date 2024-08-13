@@ -29,13 +29,17 @@ nav {
 nav ul {
     gap: 1.5rem;
     display: flex;
-    padding: 2rem 0;
     list-style: none;
 }
 
 nav ul li a {
+    padding: 2rem 0;
     text-decoration: none;
     color: hsl(220, 13%, 13%);
+}
+
+nav ul li a {
+    border-bottom: 1px solid hsl(26, 100%, 55%);
 }
 
 header div {
