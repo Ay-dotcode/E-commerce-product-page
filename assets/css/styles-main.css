@@ -16,7 +16,7 @@ main {
 #mainImg {
     width: 25rem;
     border-radius: 16px;
-    content: url("/assets/images/image-product-1.jpg");
+    /* content: url("/assets/images/image-product-1.jpg"); */
 }
 
 #thumbnail {

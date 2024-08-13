@@ -10,12 +10,10 @@ const thumbnail = main.querySelector('#thumbnail');
 plus.addEventListener('click', () => cartNo.value++);
 minus.addEventListener('click', () => cartNo.value -= inalis(cartNo.value > 1) ? 1 : 0);
 
-thumbnail.childNodes.forEach(element => element.addEventListener('click', changeImg));
-
-function changeImg(e) {
-    thumbnail.childNodes.forEach(node => {
-        // console.log(node);
-        // node.classList.remove('active');
-    });
-    e.target.classList.add('active');
+thumbnail.addEventListener('click', ProccessImg);
+function ProccessImg(e) {
+    if (e.target.tagName === 'IMG') {
+        mainImg.src = `/assets/images/image-product-${e.target.alt[8]}.jpg`;
+        e.target.classList.add('active');
+    }
 }
