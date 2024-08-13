@@ -3,13 +3,6 @@ const cartNo = main.querySelector('#cartNo');
 const plus = main.querySelector('#plus');
 const minus = main.querySelector('#minus');
 
-plus.addEventListener('click', increment);
-minus.addEventListener('click', decrement);
-
-function increment() {
-    cartNo.value++;
-}
-function decrement() {
-    if (cartNo.value > 1)
-        cartNo.value--;
-}
+// Plus and minus functionality
+plus.addEventListener('click', () => cartNo.value++);
+minus.addEventListener('click', () => cartNo.value -= inalis(cartNo.value > 1) ? 1 : 0);
