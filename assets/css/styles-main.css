@@ -3,7 +3,7 @@ main {
     width: 1000px;
     padding: 3rem;
     display: flex;
-    padding-top: 5rem;
+    padding-top: 4rem;
     background-color: white;
 }
 
@@ -16,7 +16,7 @@ main {
 #mainImg {
     width: 25rem;
     border-radius: 16px;
-    content: url("/images/image-product-1.jpg");
+    content: url("/assets/images/image-product-1.jpg");
 }
 
 #thumbnail {

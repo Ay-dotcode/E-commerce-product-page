@@ -4,10 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/assets/images/favicon-32x32.png">
   <title>E-commerce product page</title>
-  <link rel="stylesheet" href="styles-header.css">
-  <link rel="stylesheet" href="styles-main.css">
+  <link rel="stylesheet" href="/assets/css/styles-main.css">
+  <link rel="stylesheet" href="/assets/css/styles-cart.css">
+  <link rel="stylesheet" href="/assets/css/styles-header.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap">
@@ -17,7 +18,7 @@
 <body>
   <header>
     <nav>
-      <img src="/images/logo.svg" alt="Logo">
+      <img src="/assets/images/logo.svg" alt="Logo">
       <ul>
         <li><a href="">Collections</a></li>
         <li><a href="">Men</a></li>
@@ -27,8 +28,8 @@
       </ul>
     </nav>
     <div>
-      <img id="cart" src="/images/icon-cart.svg" alt="Cart">
-      <img id="avatar" src="/images/image-avatar.png" alt="Avatar">
+      <img id="cart" src="/assets/images/icon-cart.svg" alt="Cart">
+      <img id="avatar" src="/assets/images/image-avatar.png" alt="Avatar">
     </div>
   </header>
   <hr>
@@ -36,12 +37,13 @@
     <section id="imgSect">
       <img id="mainImg" alt="main Image">
       <div id="thumbnail">
-        <img class="active" src="/images/image-product-1-thumbnail.jpg" alt="product 1">
-        <img src="/images/image-product-2-thumbnail.jpg" alt="product 2">
-        <img src="/images/image-product-3-thumbnail.jpg" alt="product 3">
-        <img src="/images/image-product-4-thumbnail.jpg" alt="product 4">
+        <img class="active" src="/assets/images/image-product-1-thumbnail.jpg" alt="product 1">
+        <img src="/assets/images/image-product-2-thumbnail.jpg" alt="product 2">
+        <img src="/assets/images/image-product-3-thumbnail.jpg" alt="product 3">
+        <img src="/assets/images/image-product-4-thumbnail.jpg" alt="product 4">
       </div>
     </section>
+
     <section id="textSect">
       <h2>Sneaker Company</h2>
 
@@ -58,12 +60,12 @@
 
       <div class="row">
         <div id="prodNo">
-          <img src="/images/icon-minus.svg" alt="minus" id="minus">
+          <img src="/assets/images/icon-minus.svg" alt="minus" id="minus">
           <input type="number" name="cartNo" id="cartNo" min="1" value="1">
-          <img src="/images/icon-plus.svg" alt="plus" id="plus">
+          <img src="/assets/images/icon-plus.svg" alt="plus" id="plus">
         </div>
         <button id="addCArt">
-          <img src="/images/icon-cart.svg" alt="Cart icon" id="cartBtnIco">
+          <img src="/assets/images/icon-cart.svg" alt="Cart icon" id="cartBtnIco">
           Add to cart
         </button>
       </div>
