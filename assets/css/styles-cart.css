@@ -3,8 +3,8 @@
     right: 0;
     width: 25rem;
     display: none;
+    border-radius: 8px;
     position: absolute;
-    background-color: white;
     box-shadow: 0px 20px 20px hsla(0, 0%, 0%, 0.3);
 }
 
@@ -19,8 +19,9 @@
 }
 
 #cartContainer {
-    min-height: 12rem;
     display: flex;
+    min-height: 12rem;
+    border-radius: 8px;
     flex-direction: column;
     background-color: white;
 }
@@ -68,7 +69,6 @@
     font-size: 1.1rem;
     border-radius: 8px;
     padding: 1rem 3rem;
-    margin-bottom: 1rem;
     color: hsl(220, 13%, 13%);
     background-color: hsl(26, 100%, 55%);
 }
