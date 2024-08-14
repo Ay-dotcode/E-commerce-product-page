@@ -1,5 +1,5 @@
-import { changeImg } from './change img.js';
 import { addTocart, openCart } from './add to cart.js';
+import { changeImg } from './change img.js';
 
 const main = document.querySelector('main');
 const header = document.querySelector('header');
@@ -23,9 +23,3 @@ cart.addEventListener('click', () => openCart(main));
 
 // Add to cart functionality
 addCArt.addEventListener('click', () => addTocart(main, cartNo.value));
-
-
-addTocart(main, 2);
-addTocart(main, 3);
-addTocart(main, 4);
-addTocart(main, 5);
