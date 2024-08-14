@@ -24,7 +24,3 @@ cart.addEventListener('click', () => openCart(main));
 
 // Add to cart functionality
 addCArt.addEventListener('click', () => addTocart(main, cartNo.value));
-
-addTocart(main, 1);
-addTocart(main, 2);
-addTocart(main, 3);
