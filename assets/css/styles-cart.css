@@ -40,3 +40,8 @@
     width: 4rem;
     border-radius: 6px;
 }
+
+#delete{
+    cursor: pointer;
+    width: 1rem;
+}
