@@ -6,6 +6,7 @@ function openCart(main) {
 }
 
 function addTocart(main, cartNo) {
+  cartNo = Math.abs(parseInt(cartNo));
   const checkout = main.querySelector('#checkout');
   const cartEmpty = main.querySelector('#cartEmpty');
   const cartScreen = main.querySelector('#cartScreen');
