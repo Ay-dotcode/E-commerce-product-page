@@ -1,3 +1,5 @@
+import { delObj } from './delete object button.js';
+
 function openCart(main) {
   const cartScreen = main.querySelector('#cartScreen');
   if (cartScreen.style.display === 'none' || cartScreen.style.display === '')
@@ -30,6 +32,8 @@ function addTocart(main, cartNo) {
   if (cartScreen.style.display !== 'block')
     openCart(main);
 }
+
+delObj();
 
 export { addTocart, openCart };
 

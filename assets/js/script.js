@@ -1,5 +1,5 @@
-import { addTocart, openCart } from './add to cart.js';
 import { changeImg } from './change img.js';
+import { addTocart, openCart } from './add to cart.js';
 
 const main = document.querySelector('main');
 const header = document.querySelector('header');
@@ -10,7 +10,6 @@ const minus = main.querySelector('#minus');
 const cartNo = main.querySelector('#cartNo');
 const addCArt = main.querySelector('#addCArt');
 const thumbnail = main.querySelector('#thumbnail');
-
 
 // Plus and minus functionality
 plus.addEventListener('click', () => cartNo.value++);
@@ -24,3 +23,9 @@ cart.addEventListener('click', () => openCart(main));
 
 // Add to cart functionality
 addCArt.addEventListener('click', () => addTocart(main, cartNo.value));
+
+
+addTocart(main, 2);
+addTocart(main, 3);
+addTocart(main, 4);
+addTocart(main, 5);
