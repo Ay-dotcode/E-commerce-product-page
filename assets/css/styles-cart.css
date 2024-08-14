@@ -60,3 +60,12 @@
     cursor: pointer;
     font-size: 1.1rem;
 }
+#checkout{
+    border: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    padding: 1rem 3rem;
+    color: hsl(220, 13%, 13%);
+    background-color: hsl(26, 100%, 55%);
+}
