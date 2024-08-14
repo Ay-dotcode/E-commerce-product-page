@@ -31,9 +31,9 @@ function addTocart(main, cartNo) {
 
   if (cartScreen.style.display !== 'block')
     openCart(main);
-}
 
-delObj();
+  delObj(main, obj);
+}
 
 export { addTocart, openCart };
 
