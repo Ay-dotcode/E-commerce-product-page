@@ -16,7 +16,7 @@ function addTocart(main, cartNo) {
             <img id="cartImg" src="/assets/images/image-product-1-thumbnail.jpg" alt="product 1">
             <div>
               <p id="prodName"> Fall Limited Edition Sneakers</p>
-              <p id="totalPrice"> $125.00 x ${cartNo}.00 <span>$${125 * cartNo}</span></p>
+              <p id="totalPrice"> $125.00 x ${cartNo} <span>$${125 * cartNo}.00</span></p>
             </div>
             <img id="delete" src="/assets/images/icon-delete.svg" alt="delete">
           </div>
