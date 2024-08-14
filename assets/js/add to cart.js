@@ -12,15 +12,15 @@ function addTocart(main, cartNo) {
   const cartContainer = main.querySelector('#cartContainer');
 
   const obj = document.createElement('section');
-  obj.id = "cartObj";
+  obj.classList.add("cartObj");
   obj.innerHTML += `
           <div class="row">
-            <img id="cartImg" src="/assets/images/image-product-1-thumbnail.jpg" alt="product 1">
+            <img class="cartImg" src="/assets/images/image-product-1-thumbnail.jpg" alt="product 1">
             <div>
-              <p id="prodName"> Fall Limited Edition Sneakers</p>
-              <p id="totalPrice"> $125.00 x ${cartNo} <span>$${125 * cartNo}.00</span></p>
+              <p class="prodName"> Fall Limited Edition Sneakers</p>
+              <p class="totalPrice"> $125.00 x ${cartNo} <span>$${125 * cartNo}.00</span></p>
             </div>
-            <img id="delete" src="/assets/images/icon-delete.svg" alt="delete">
+            <img class="delete" src="/assets/images/icon-delete.svg" alt="delete">
           </div>`;
   checkout.style.display = 'block';
   cartContainer.insertBefore(obj, cartContainer.lastElementChild);
