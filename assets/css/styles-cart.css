@@ -63,6 +63,7 @@
 
 #checkout {
     border: none;
+    display: none;
     font-weight: 700;
     font-size: 1.1rem;
     border-radius: 8px;
