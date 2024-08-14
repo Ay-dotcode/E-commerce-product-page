@@ -19,3 +19,5 @@ thumbnail.addEventListener('click', changeImg);
 
 // Add to cart functionality
 addCArt.addEventListener('click', () => addTocart(main, cartNo.value));
+
+addTocart(main, cartNo.value);
