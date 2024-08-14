@@ -19,7 +19,7 @@
 }
 
 #cartContainer {
-    height: 12rem;
+    min-height: 12rem;
     display: flex;
     flex-direction: column;
     background-color: white;
