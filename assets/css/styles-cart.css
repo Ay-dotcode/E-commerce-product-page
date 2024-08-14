@@ -36,12 +36,27 @@
     flex-direction: column;
 }
 
-#cartObj img {
+#cartObj div {
+    justify-content: space-between;
+}
+
+#cartImg {
     width: 4rem;
     border-radius: 6px;
 }
 
-#delete{
+#prodName,
+#totalPrice {
+    font-size: 1.1rem;
+    color: hsl(219, 9%, 45%);
+}
+
+#totalPrice span {
+    font-weight: 700;
+    color: black;
+}
+
+#delete {
     cursor: pointer;
-    width: 1rem;
+    font-size: 1.1rem;
 }
