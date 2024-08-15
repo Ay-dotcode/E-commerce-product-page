@@ -45,11 +45,11 @@
 }
 
 #prev:hover {
-    content: url("/assets/images/icon-previous.svg");
+    content: url("/assets/images/icon-previous active.svg");
 }
 
 #next:hover {
-    content: url("/assets/images/icon-next.svg");
+    content: url("/assets/images/icon-next active.svg");
 }
 
 #lightboxThumbnail div {
