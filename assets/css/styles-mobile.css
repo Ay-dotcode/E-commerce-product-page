@@ -1,0 +1,26 @@
+@media (max-width: 65em) {
+
+    body {
+        width: 375px;
+        background-color: black;
+    }
+
+    header {
+        width: 375px;
+        position: relative;
+    }
+
+    nav ul {
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        background-color: red;
+    }
+
+    #menu {
+        display: block;
+    }
+}
