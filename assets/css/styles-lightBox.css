@@ -20,6 +20,7 @@
 
 #close {
     cursor: pointer;
+    pointer-events: all;
     align-self: flex-end;
     content: url("/assets/images/icon-close.svg");
 }
