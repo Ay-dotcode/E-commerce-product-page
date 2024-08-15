@@ -26,6 +26,10 @@ function lightboxChange(e, imgesDiv, lightboxImg) {
     lightboxImg.src = `/assets/images/image-product-${e.target.alt[8]}.jpg`;
 }
 
+const prev = document.querySelector('#prev');
+const next = document.querySelector('#next');
+console.log(prev, next);
+
 
 export { openLightbox };
 
