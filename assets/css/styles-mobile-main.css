@@ -1,0 +1,17 @@
+@media (max-width: 65em) {
+    main {
+        gap: 1rem;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    #mainImg {
+        width: 100%;
+        border-radius: 0;
+        pointer-events: none;
+    }
+
+    #thumbnail {
+        display: none;
+    }
+}
