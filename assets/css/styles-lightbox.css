@@ -62,9 +62,3 @@
 #next:hover {
     content: url("/assets/images/icon-next active.svg");
 }
-
-#lightboxThumbnail div {
-    border-radius: 8px;
-    background-color: white;
-    height: 5.5rem;
-}

@@ -38,6 +38,13 @@ main {
     opacity: .5;
 }
 
+#thumbnail div,
+#lightboxThumbnail div {
+    border-radius: 8px;
+    background-color: white;
+    height: 5.5rem;
+}
+
 #thumbnail div:has(.active),
 #lightboxThumbnail div:has(.active) {
     border: 2px solid hsl(26, 100%, 55%);
