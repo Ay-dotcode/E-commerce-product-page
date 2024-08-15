@@ -4,13 +4,13 @@
     hr,
     main {
         width: 375px;
-        overflow: hidden;
     }
 
     body {
         background-color: black;
     }
 
+    /* Header */
     header {
         position: relative;
     }
@@ -19,7 +19,7 @@
         top: 0px;
         left: 0px;
         z-index: 1;
-        display: none;
+        /* display: none; */
         position: absolute;
         flex-direction: column;
         background-color: red;
@@ -27,5 +27,10 @@
 
     #menu {
         display: block;
+    }
+
+    /* main */
+    main {
+        overflow: hidden;
     }
 }
