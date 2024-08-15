@@ -15,22 +15,38 @@
         position: relative;
     }
 
-    nav ul {
-        top: 0px;
-        left: 0px;
-        z-index: 1;
-        /* display: none; */
-        position: absolute;
-        flex-direction: column;
-        background-color: red;
-    }
-
-    #menu {
+    #menu,
+    #mobileClose {
         display: block;
     }
 
-    /* main */
-    main {
-        overflow: hidden;
+    #darkbg {
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        width: 100%;
+        display: none;
+        position: absolute;
+        background-color: hsla(0, 0%, 0%, 0.7);
+    }
+
+    nav ul {
+        width: 65%;
+        height: 100vh;
+        padding: 1rem;
+        align-items: flex-start;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    #mobileClose {
+        margin-bottom: 1.5rem;
+    }
+
+    nav ul li a,
+    nav ul li a:hover {
+        padding: 0;
+        border: none;
+        font-weight: 700;
     }
 }

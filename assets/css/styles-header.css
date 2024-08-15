@@ -26,7 +26,8 @@ nav {
     align-items: center;
 }
 
-#menu {
+#menu,
+#mobileClose {
     display: none;
 }
 
