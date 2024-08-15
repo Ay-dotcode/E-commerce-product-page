@@ -1,4 +1,5 @@
 #lightbox {
+    gap: 1.5rem;
     width: 100%;
     height: 121%;
     display: flex;
@@ -13,13 +14,42 @@
 #closeDiv {
     width: 25rem;
     display: flex;
+    pointer-events: none;
     flex-direction: column;
 }
 
 #close {
     cursor: pointer;
     align-self: flex-end;
-    margin-bottom: 1rem;
+}
+
+#prev,
+#next {
+    top: 40%;
+    margin: 0 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    padding: .8rem 1rem;
+    background-color: white;
+}
+
+#prev {
+    left: 24.5rem;
+    content: url("/assets/images/icon-previous.svg");
+}
+
+#next {
+    right: 24.5rem;
+    content: url("/assets/images/icon-next.svg");
+}
+
+#prev:hover {
+    content: url("/assets/images/icon-previous.svg");
+}
+
+#next:hover {
+    content: url("/assets/images/icon-next.svg");
 }
 
 #lightboxThumbnail div {
