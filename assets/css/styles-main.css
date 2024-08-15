@@ -27,7 +27,12 @@ main {
 #thumbnail img {
     height: auto;
     width: 5.5rem;
+    cursor: pointer;
     border-radius: 8px;
+}
+
+#thumbnail img:hover {
+    opacity: .5;
 }
 
 .active {
