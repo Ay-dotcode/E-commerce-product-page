@@ -38,10 +38,14 @@ main {
     opacity: .5;
 }
 
+#thumbnail div:has(.active),
+#lightboxThumbnail div:has(.active) {
+    border: 2px solid hsl(26, 100%, 55%);
+}
+
 .active {
     opacity: .25;
     position: relative;
-    box-shadow: 0 0 0 2px hsl(26, 100%, 55%);
 }
 
 #textSect {
