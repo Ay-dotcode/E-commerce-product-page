@@ -29,24 +29,31 @@
     content: url("/assets/images/icon-close active.svg");
 }
 
+#controls {
+    top: 40%;
+    width: 30rem;
+    position: absolute;
+    pointer-events: none;
+}
+
 #prev,
 #next {
-    top: 40%;
     margin: 0 1rem;
     cursor: pointer;
     border-radius: 50%;
     position: absolute;
     padding: .8rem 1rem;
+    pointer-events: all;
     background-color: white;
 }
 
 #prev {
-    left: 24.5rem;
+    left: 0;
     content: url("/assets/images/icon-previous.svg");
 }
 
 #next {
-    right: 24.5rem;
+    right: 0;
     content: url("/assets/images/icon-next.svg");
 }
 
