@@ -26,6 +26,16 @@ nav {
     align-items: center;
 }
 
+#menu {
+    display: none;
+}
+
+nav div {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+
 nav ul {
     gap: 1.5rem;
     display: flex;
