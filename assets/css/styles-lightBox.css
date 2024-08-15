@@ -21,6 +21,11 @@
 #close {
     cursor: pointer;
     align-self: flex-end;
+    content: url("/assets/images/icon-close.svg");
+}
+
+#close:hover {
+    content: url("/assets/images/icon-close active.svg");
 }
 
 #prev,
