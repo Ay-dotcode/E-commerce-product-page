@@ -14,24 +14,28 @@ main {
     flex-direction: column;
 }
 
-#mainImg {
+#mainImg,
+#lightBoxImg {
     width: 25rem;
     border-radius: 16px;
 }
 
-#thumbnail {
+#thumbnail,
+#lightboxThumbnail {
     gap: 1rem;
     display: flex;
 }
 
-#thumbnail img {
+#thumbnail img,
+#lightboxThumbnail img {
     height: auto;
     width: 5.5rem;
     cursor: pointer;
     border-radius: 8px;
 }
 
-#thumbnail img:hover {
+#thumbnail img:hover,
+#lightboxThumbnail img:hover {
     opacity: .5;
 }
 
