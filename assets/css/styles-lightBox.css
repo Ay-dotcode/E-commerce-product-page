@@ -38,7 +38,6 @@
 
 #prev,
 #next {
-    margin: 0 1rem;
     cursor: pointer;
     border-radius: 50%;
     position: absolute;
