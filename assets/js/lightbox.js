@@ -39,6 +39,7 @@ function control(n) {
     number += n;
     if (number > 4) number = 1;
     if (number < 1) number = 4;
+    console.log(number);
     lightboxImg.src = `/assets/images/image-product-${number}.jpg`;
     lightboxThumbnail.childNodes.forEach((thumbnail) => {
         if (thumbnail.tagName === 'DIV') {
