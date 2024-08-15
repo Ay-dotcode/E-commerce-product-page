@@ -35,7 +35,7 @@ function nextImg() { control(1); }
 function control(n) {
     const lightboxImg = lightbox.querySelector('#lightBoxImg');
     const lightboxThumbnail = lightbox.querySelector('#lightboxThumbnail');
-    let number = parseInt(lightboxImg.src[src.length - 5]);
+    let number = parseInt(lightboxImg.src[lightboxImg.src.length - 5]);
     number += n;
     if (number > 4) number = 1;
     if (number < 1) number = 4;
