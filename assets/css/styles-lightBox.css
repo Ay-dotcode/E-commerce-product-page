@@ -21,3 +21,8 @@
     align-self: flex-end;
     margin-bottom: 1rem;
 }
+
+#lightboxThumbnail div {
+    border-radius: 8px;
+    background-color: white;
+}

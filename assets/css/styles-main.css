@@ -33,8 +33,8 @@ main {
     border-radius: 8px;
 }
 
-#thumbnail img:hover,
-#lightboxThumbnail img:hover {
+#thumbnail img:hover:not(.active),
+#lightboxThumbnail img:hover:not(.active) {
     opacity: .5;
 }
 
