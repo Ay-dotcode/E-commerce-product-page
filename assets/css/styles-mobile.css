@@ -1,12 +1,17 @@
 @media (max-width: 65em) {
 
-    body {
+    header,
+    hr,
+    main {
         width: 375px;
+        overflow: hidden;
+    }
+
+    body {
         background-color: black;
     }
 
     header {
-        width: 375px;
         position: relative;
     }
 
