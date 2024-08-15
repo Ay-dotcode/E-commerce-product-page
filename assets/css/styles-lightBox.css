@@ -4,7 +4,20 @@
     display: flex;
     /* display: none; */
     position: absolute;
+    padding: 4.5rem 0;
     align-items: center;
     flex-direction: column;
     background-color: hsla(0, 0%, 0%, 0.7);
+}
+
+#closeDiv {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#close {
+    cursor: pointer;
+    align-self: flex-end;
+    margin-bottom: 1rem;
 }
