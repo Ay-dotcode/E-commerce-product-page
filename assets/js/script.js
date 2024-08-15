@@ -1,6 +1,6 @@
 import { addTocart, openCart } from './add to cart.js';
-import { openLightbox } from './lightbox.js';
 import { changeImg } from './change img.js';
+import { openLightbox } from './lightbox.js';
 
 const main = document.querySelector('main');
 const header = document.querySelector('header');
@@ -27,4 +27,4 @@ cart.addEventListener('click', () => openCart(main));
 addCArt.addEventListener('click', () => addTocart(main, cartNo.value));
 
 // Open lightbox functionality
-mainImg.addEventListener('click', () => openLightbox(mainImg.src));
+mainImg.addEventListener('click', () => openLightbox(mainImg));
