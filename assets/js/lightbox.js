@@ -8,7 +8,7 @@ function openLightbox(img) {
         if (thumbnail.tagName === 'DIV') {
             thumbnail = thumbnail.querySelector('img');
             thumbnail.classList.remove('active');
-            if (lightboxImg.src[50] === thumbnail.alt[8])
+            if (lightboxImg.src[lightboxImg.src.length - 5] === thumbnail.alt[8])
                 thumbnail.classList.add('active');
             thumbnail.addEventListener('click', (e) => { lightboxChange(e, lightboxThumbnail, lightboxImg) });
         }
@@ -35,7 +35,7 @@ function nextImg() { control(1); }
 function control(n) {
     const lightboxImg = lightbox.querySelector('#lightBoxImg');
     const lightboxThumbnail = lightbox.querySelector('#lightboxThumbnail');
-    let number = parseInt(lightboxImg.src[lightboxImg.src.length - 5]);
+    let number = parseInt(lightboxImg.src[lightboxImg.src.length - 5])
     number += n;
     if (number > 4) number = 1;
     if (number < 1) number = 4;
@@ -44,7 +44,7 @@ function control(n) {
         if (thumbnail.tagName === 'DIV') {
             thumbnail = thumbnail.querySelector('img');
             thumbnail.classList.remove('active');
-            if (lightboxImg.src[50] === thumbnail.alt[8])
+            if (lightboxImg.src[lightboxImg.src.length - 5] === thumbnail.alt[8])
                 thumbnail.classList.add('active');
             thumbnail.addEventListener('click', (e) => { lightboxChange(e, lightboxThumbnail, lightboxImg) });
         }
