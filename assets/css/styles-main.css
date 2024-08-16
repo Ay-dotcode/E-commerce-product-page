@@ -19,6 +19,10 @@ main {
     border-radius: 16px;
 }
 
+#mobileControls {
+    display: none;
+}
+
 #thumbnail,
 #lightboxThumbnail {
     gap: 1rem;
