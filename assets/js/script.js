@@ -33,5 +33,5 @@ addCArt.addEventListener('click', () => addTocart(main, cartNo.value));
 mainImg.addEventListener('click', () => openLightbox(mainImg));
 
 // Mobile controls functionality
-mobilePrev.addEventListener('click', () => mobileControls(-1));
-mobileNext.addEventListener('click', () => mobileControls(1));
+mobilePrev.addEventListener('click', () => mobileControls(-1, mainImg));
+mobileNext.addEventListener('click', () => mobileControls(1, mainImg));
