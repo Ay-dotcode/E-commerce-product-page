@@ -51,4 +51,10 @@
     #textSect p {
         font-size: .95rem;
     }
+
+    #priceRow {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
