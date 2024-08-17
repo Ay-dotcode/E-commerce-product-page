@@ -51,6 +51,10 @@
         font-weight: 700;
     }
 
+    nav ul li a:hover {
+        border-bottom: 2px solid hsl(26, 100%, 55%);
+    }
+
     #cart {
         margin: 0;
         width: 1.25rem;
