@@ -38,4 +38,17 @@
     #thumbnail {
         display: none;
     }
+
+    #textSect {
+        padding: .5rem 1.5rem;
+    }
+
+    #textSect h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #textSect p {
+        font-size: .95rem;
+    }
 }
