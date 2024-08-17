@@ -13,6 +13,8 @@ const cartNo = main.querySelector('#cartNo');
 const addCArt = main.querySelector('#addCArt');
 const mainImg = main.querySelector('#mainImg');
 const thumbnail = main.querySelector('#thumbnail');
+const mobilePrev = main.querySelector('#mobilePrev');
+const mobileNext = main.querySelector('#mobileNext');
 
 // Plus and minus functionality
 plus.addEventListener('click', () => cartNo.value++);
@@ -29,3 +31,7 @@ addCArt.addEventListener('click', () => addTocart(main, cartNo.value));
 
 // Open lightbox functionality
 mainImg.addEventListener('click', () => openLightbox(mainImg));
+
+// Mobile controls functionality
+mobilePrev.addEventListener('click', () => mobileControls(-1));
+mobileNext.addEventListener('click', () => mobileControls(1));
