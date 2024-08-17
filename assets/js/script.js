@@ -1,6 +1,7 @@
 import { addTocart, openCart } from './add to cart.js';
 import { changeImg } from './change img.js';
 import { openLightbox } from './lightbox.js';
+import { mobileControls } from './Mobile controls.js';
 
 const main = document.querySelector('main');
 const header = document.querySelector('header');
